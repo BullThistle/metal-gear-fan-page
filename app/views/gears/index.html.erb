@@ -1,0 +1,14 @@
+<%= image_tag "logo.png" %>
+<h1>Metal Gear Mechs</h1>
+
+<ul>
+  <% @gears.each do |gear| %>
+    <li><%= link_to gear.name, gear_path(gear) %></li>
+  <% end %>
+</ul>
+
+<hr>
+
+<%= link_to "New gear", new_gear_path %>
+<br>
+<%= link_to "New Game", new_game_path %>

@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 
   resources :platforms
   resources :games
+  resources :gears
 end
