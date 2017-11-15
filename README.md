@@ -15,11 +15,13 @@ _A Metal Gear Solid Fan Page_
 
 * Clone this repository
 * Install required dependencies
-  ```
+
+```
 $ bundle install
-  ```
+```
 
 * To run local server
+
 ```
 $ rails s
 ```
