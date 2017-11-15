@@ -1,24 +1,47 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+#
 
-* Ruby version
+##### _Epicodus Practice in Rails, November 15, 2017_
 
-* System dependencies
+## About
 
-* Configuration
+_A Metal Gear Solid Fan Page_
 
-* Database creation
+![Metal Gear Logo](https://upload.wikimedia.org/wikipedia/commons/b/b5/Metal_Gear_Solid_logo.png)
 
-* Database initialization
 
-* How to run the test suite
+## Building the App or Contributing
 
-* Services (job queues, cache servers, search engines, etc.)
+* Clone this repository
+* Install required dependencies
+  ```
+$ bundle install
+  ```
 
-* Deployment instructions
+* To run local server
+```
+$ rails s
+```
 
-* ...
+
+## Support and Contact Details
+
+Please contact [Rafael Furry](rfurry@gmail.com), [Gennaro Anzalone](g.anzalone12@gmail.com) with questions or comments.
+
+
+## Technologies Used
+
+* [rails](http://rubyonrails.org/)
+* [foundation](https://foundation.zurb.com/)
+
+## Contributors
+
+| [<img alt="Rafa" src="https://avatars0.githubusercontent.com/u/13779974?s=460&v=4" width="117">](https://github.com/bullthistle) | [<img alt="Gennaro" src="https://avatars2.githubusercontent.com/u/29054577?s=460&v=4" width="117">](https://github.com/ganza9)
+|:---:|:---:|
+|[Rafa](https://github.com/bullthistle)|[Gennaro](https://github.com/ganza9)|
+### License
+
+Copyright (c) 2017 **Rafael Furry, Gennaro Anzalone**
+
+*This software is licensed under the MIT license.*
