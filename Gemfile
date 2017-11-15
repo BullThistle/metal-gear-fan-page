@@ -31,7 +31,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'zurb-foundation'
-gem "foundation-rails" #, "= 5.5.2.1"
+gem "foundation-rails", "= 5.5.2.1"
+#{}"~> 6.3.1"
 
 
 # Use Capistrano for deployment

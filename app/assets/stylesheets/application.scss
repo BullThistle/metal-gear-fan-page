@@ -17,92 +17,9 @@
  */
 
 @import "foundation_and_overrides";
+@import "full_screen";
+@import "card";
 
 ul{
   list-style: none;
 }
-
-$home: url('http://cardiffstudentmedia.co.uk/quench/wp-content/uploads/sites/3/2015/11/metal-gear-solid-rex-art.jpg') center center no-repeat;
-$about: url('https://www.leviathyn.com/wp-content/uploads/2013/02/metal_gear_solid_solid_snake_hd_wallpaper.jpg') center center no-repeat;
-$hero-full-screen-bg-size: cover;
-$hero-full-screen-text-color: $white;
-
-.home {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  background: $home;
-  background-size: $hero-full-screen-bg-size;
-
-  .middle-content-section {
-    text-align: center;
-    color: $hero-full-screen-text-color;
-  }
-
-  .top-content-section {
-    width: 100%;
-  }
-
-  .bottom-content-section {
-    padding: 1rem;
-
-    svg {
-      height: rem-calc(60);
-      width: rem-calc(60);
-      fill: $hero-full-screen-text-color;
-    }
-  }
-}
-  .about {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background: $about;
-    background-size: $hero-full-screen-bg-size;
-
-    .middle-content-section {
-      text-align: center;
-      color: $hero-full-screen-text-color;
-    }
-
-    .top-content-section {
-      width: 100%;
-    }
-
-    .bottom-content-section {
-      padding: 1rem;
-
-      svg {
-        height: rem-calc(60);
-        width: rem-calc(60);
-        fill: $hero-full-screen-text-color;
-      }
-    }
-  }
-
-  // optional demo styles
-  .top-bar {
-    background: transparent;
-
-    .menu {
-      background: transparent;
-    }
-
-    .menu-text {
-      color: black;
-    }
-
-    .menu li {
-      display: flex;
-      align-items: center;
-    }
-
-    .menu a {
-      color: black;
-      font-weight: bold;
-    }
-  }
