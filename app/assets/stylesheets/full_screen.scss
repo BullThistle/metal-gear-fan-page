@@ -1,46 +1,67 @@
-$home: url('http://cardiffstudentmedia.co.uk/quench/wp-content/uploads/sites/3/2015/11/metal-gear-solid-rex-art.jpg') center center no-repeat;
+$home: url('https://images-na.ssl-images-amazon.com/images/I/71e0H57dNjL._SL1500_.jpg') center center no-repeat;
+$platforms: url('https://www.dualshockers.com/wp-content/uploads/2017/08/metal-gear-solid-2.jpg') center center no-repeat;
+$games: url('http://cdn2.twinfinite.net/wp-content/uploads/2016/08/Metal-Gear-solid-v-The-Definitive-Experience.jpg') center center no-repeat;
+$mechs: url('https://i.pinimg.com/originals/e8/ae/e4/e8aee43467e74b04949f1a22ab57b8ae.jpg') center center no-repeat;
+$characters: url('https://cdn.wallpapersafari.com/36/16/BnbxOC.jpg') center center no-repeat;
 $about: url('https://www.leviathyn.com/wp-content/uploads/2013/02/metal_gear_solid_solid_snake_hd_wallpaper.jpg') center center no-repeat;
 $hero-full-screen-bg-size: cover;
 $hero-full-screen-text-color: white;
 
-.home {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+.home{
+  @extend .background;
   background: $home;
-  background-size: $hero-full-screen-bg-size;
-
-  .middle-content-section {
-    text-align: center;
-    color: $hero-full-screen-text-color;
-  }
-
-  .top-content-section {
-    width: 100%;
-  }
-
-  .bottom-content-section {
-    padding: 1rem;
-
-    svg {
-      height: rem-calc(60);
-      width: rem-calc(60);
-      fill: $hero-full-screen-text-color;
-    }
-  }
 }
-.about {
+
+.platforms{
+  @extend .background;
+  background: $platforms;
+}
+
+.games{
+  @extend .background;
+  background: $games;
+}
+
+.mechs{
+  @extend .background;
+  background: $mechs;
+}
+
+.characters{
+  @extend .background;
+  background: $characters;
+}
+
+.about{
+  @extend .background;
+  background: $about;
+}
+
+.background {
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background: $about;
   background-size: $hero-full-screen-bg-size;
 
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+
+}
+
   .middle-content-section {
+    text-align: center;
+    color: $hero-full-screen-text-color;
+    background-color: rgba(255,255,255,0.8);
+    width: 50vh;
+    height: 50vh;
+    padding: 15vh;
+    border-radius: 25px;
+  }
+
+  .home-middle-content-section {
     text-align: center;
     color: $hero-full-screen-text-color;
   }
@@ -58,7 +79,6 @@ $hero-full-screen-text-color: white;
       fill: $hero-full-screen-text-color;
     }
   }
-}
 
 // optional demo styles
 .top-bar {

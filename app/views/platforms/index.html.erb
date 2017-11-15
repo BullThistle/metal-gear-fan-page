@@ -1,12 +1,40 @@
-<%= image_tag "logo.png" %>
-<h1>Platforms</h1>
+<div class="platforms">
 
-<ul>
-  <% @platforms.each do |platform| %>
-    <li><%= link_to platform.console, platform_path(platform) %></li>
-  <% end %>
-</ul>
+  <div class="top-content-section">
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li class="menu-text"><img src="https://vignette.wikia.nocookie.net/metalgear/images/a/af/FOXHOUNDPeacewalker.png/revision/latest?cb=20140208024901" alt="logo"></li>
+          <li><%= link_to "Home", root_path %></li>
+          </li><u><%= link_to "Platforms", platforms_path %></u></li>
+          <br>
+          </li><%= link_to "Games", games_path %></li>
+          <br>
+          </li><%= link_to "Mechs", mechs_path %></li>
+          <br>
+          </li><%= link_to "Characters", characters_path %></li>
+          <br>
+          </li><%= link_to "About", about_path %></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-<hr>
+  <div class="middle-content-section">
+    <h1>Platforms</h1>
 
-<%= link_to "New platform", new_platform_path %>
+    <ul>
+      <% @platforms.each do |platform| %>
+        <li><%= link_to platform.console, platform_path(platform) %></li>
+      <% end %>
+    </ul>
+
+    <hr>
+
+    <%= link_to "New Platform", new_platform_path %>
+  </div>
+
+  <div class="bottom-content-section" data-magellan data-threshold="0">
+  </div>
+
+</div>
