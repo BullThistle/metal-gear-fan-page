@@ -1,0 +1,13 @@
+<%= render "layouts/errors", :object => @game %>
+
+<%= form_for @game do |f| %>
+  <%= f.label :name %>
+  <div class="row">
+    <div class="large-6 columns">
+      <%= f.text_field :name %>
+      <%= f.label :release %>
+      <%= f.text_field :release %>
+    </div>
+  </div>
+  <%= f.submit :class => 'button' %>
+<% end %>

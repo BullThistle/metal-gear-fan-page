@@ -1,0 +1,14 @@
+<h1><%= @gear.name %></h1>
+
+
+
+
+
+
+
+
+<p><%= link_to "Delete gear", gear_path(@gear),
+                        :data => {:confirm => "Are you sure?",
+                                       :method => "delete"} %></p>
+
+<p><%= link_to "Return to gears", gears_path %></p>
