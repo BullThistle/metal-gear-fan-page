@@ -10,17 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 20171115200535) do
-=======
-ActiveRecord::Schema.define(version: 20171115214026) do
->>>>>>> chars
+ActiveRecord::Schema.define(version: 20171115224800) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-<<<<<<< HEAD
-=======
   create_table "characters", force: :cascade do |t|
     t.string "name"
     t.integer "game_id"
@@ -28,12 +22,15 @@ ActiveRecord::Schema.define(version: 20171115214026) do
     t.datetime "updated_at", null: false
   end
 
->>>>>>> chars
   create_table "games", force: :cascade do |t|
     t.string "name"
-    t.date "release"
+    t.string "release"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.text "description"
+    t.text "story"
+    t.text "gameplay"
+    t.text "development"
   end
 
   create_table "games_platforms", force: :cascade do |t|
