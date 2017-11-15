@@ -8,7 +8,7 @@
 
 _A Metal Gear Solid Fan Page_
 
-![Metal Gear Logo](https://upload.wikimedia.org/wikipedia/commons/b/b5/Metal_Gear_Solid_logo.png)
+![Metal Gear Logo](https://user-images.githubusercontent.com/13779974/32854480-8ac23388-c9f3-11e7-8c30-9a8e64eee52b.png)
 
 
 ## Building the App or Contributing
