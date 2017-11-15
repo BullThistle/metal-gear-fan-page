@@ -1,0 +1,11 @@
+<%= render "layouts/errors", :object => @character %>
+
+<%= form_for @character do |f| %>
+  <%= f.label :name %>
+  <div class="row">
+    <div class="large-6 columns">
+      <%= f.text_field :name %>
+    </div>
+  </div>
+  <%= f.submit :class => 'button' %>
+<% end %>
