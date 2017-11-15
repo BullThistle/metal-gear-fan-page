@@ -1,0 +1,14 @@
+<h1><%= @game.name %></h1>
+
+
+
+
+
+
+
+
+<p><%= link_to "Delete game", game_path(@game),
+                        :data => {:confirm => "Are you sure?",
+                                       :method => "delete"} %></p>
+
+<p><%= link_to "Return to games", games_path %></p>
