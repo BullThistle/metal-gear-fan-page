@@ -1,0 +1,12 @@
+<%= image_tag "logo.png" %>
+<h1>characters</h1>
+
+<ul>
+  <% @characters.each do |character| %>
+    <li><%= link_to character.name, character_path(character) %></li>
+  <% end %>
+</ul>
+
+<hr>
+
+<%= link_to "New character", new_character_path %>

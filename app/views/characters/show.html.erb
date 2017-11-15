@@ -1,0 +1,14 @@
+<h1><%= @character.name %></h1>
+
+
+
+
+
+
+
+
+<p><%= link_to "Delete character", character_path(@character),
+                        :data => {:confirm => "Are you sure?",
+                                       :method => "delete"} %></p>
+
+<p><%= link_to "Return to characters", characters_path %></p>
