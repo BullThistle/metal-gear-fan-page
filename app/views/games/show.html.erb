@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="games">
 
   <div class="top-content-section">
@@ -35,3 +36,36 @@
   </div>
 
 </div>
+=======
+<h1><%= @game.name %></h1>
+<h3>Release Date: <%= @game.release %></h3>
+<br>
+<h2>Description:</h2>
+<br>
+<p><%= @game.description %></p>
+<br>
+<h2>Gameplay:</h2>
+<br>
+<p><%= @game.gameplay %></p>
+<br>
+<h2>Story:</h2>
+<br>
+<p><%= @game.story %></p>
+<br>
+<br>
+<h2>Development:</h2>
+<br>
+<p><%= @game.development %></p>
+<br>
+
+
+
+
+
+
+<p><%= link_to "Delete game", game_path(@game),
+                        :data => {:confirm => "Are you sure?",
+                                       :method => "delete"} %></p>
+
+<p><%= link_to "Return to games", games_path %></p>
+>>>>>>> data

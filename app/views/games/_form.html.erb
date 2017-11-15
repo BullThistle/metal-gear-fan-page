@@ -1,12 +1,20 @@
 <%= render "layouts/errors", :object => @game %>
 
 <%= form_for @game do |f| %>
-  <%= f.label :name %>
   <div class="row">
     <div class="large-6 columns">
+      <%= f.label :name %>  
       <%= f.text_field :name %>
       <%= f.label :release %>
       <%= f.text_field :release %>
+      <%= f.label :description %>
+      <%= f.text_field :description %>
+      <%= f.label :gameplay %>
+      <%= f.text_field :gameplay %>
+      <%= f.label :story %>
+      <%= f.text_field :story %>
+      <%= f.label :development %>
+      <%= f.text_field :development %>
     </div>
   </div>
   <%= f.submit :class => 'button' %>
