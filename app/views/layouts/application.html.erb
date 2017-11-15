@@ -1,14 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>FanSite</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title><%= content_for?(:title) ? yield(:title) : "foundation-rails" %></title>
+
+    <%= stylesheet_link_tag    "application" %>
+    <%= javascript_include_tag "vendor/modernizr" %>
     <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <%= yield %>
+
+    <header>
+      <nav class="top-bar">
+        <ul class="title-area">
+          <li class="name">
+            <h1><%= link_to "Sons Of Liberty: Metal Gear Fans", platforms_path %></a></h1>
+          </li>
+        </ul>
+        <section class="top-bar-section">
+          <ul class="right">
+            <li class="divider"></li>
+            <li><%= link_to "Platform Types", platforms_path %></li>
+          </ul>
+        </section>
+      </nav>
+    </header>
+    <main>
+      <div class="row">
+        <div class="small-8 columns"><%= yield %></div>
+        <div class="small-4 columns">
+          <h2 class="subheader">About</h2>
+          <p>
+            Metal Gear Stuff
+          </p>
+          <br>
+          <%= image_tag "snake.png" %>
+        </div>
+      </div>
+    </main>
+    <!-- <footer>
+      <div class="wrap row small-up-1 medium-up-3">
+        <div class="column">
+          <h4>Contact Info</h4>
+          <hr>
+          <a href="#"><span>Github</span>https://github.com/BullThistle</a>
+          <a href="#"><span>Website</span>www.rafamaya.com</a>
+        </div>
+        <div class="column">
+          <h4>Site Map</h4>
+          <hr>
+          <a href="#">Abous Us</a>
+          <a href="#">Services</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="column">
+          <h4>Social Media</h4>
+          <hr>
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+    </footer> -->
+    <%= javascript_include_tag "application" %>
   </body>
 </html>

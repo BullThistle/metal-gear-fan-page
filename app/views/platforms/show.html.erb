@@ -1,0 +1,14 @@
+<h1><%= @platform.console %></h1>
+
+
+
+
+
+
+
+
+<p><%= link_to "Delete business", platform_path(@platform),
+                        :data => {:confirm => "Are you sure?",
+                                       :method => "delete"} %></p>
+
+<p><%= link_to "Return to platforms", platforms_path %></p>
