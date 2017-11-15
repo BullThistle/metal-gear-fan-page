@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  root :to => 'platforms#home'
+  root :to => 'pages#home'
+
+  get '/about' => 'pages#about'
 
   resources :platforms
 end

@@ -36,9 +36,6 @@ class PlatformsController < ApplicationController
     @platform.destroy
     redirect_to platforms_path
   end
-  def home
-    render :home
-  end
 
 
 private
