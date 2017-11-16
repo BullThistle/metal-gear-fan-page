@@ -1,4 +1,4 @@
-<div class="mechs">
+<div class="gears">
 
   <div class="top-content-section">
     <div class="top-bar">
@@ -10,7 +10,7 @@
           <br>
           </li><%= link_to "Games", games_path %></li>
           <br>
-          </li><u><%= link_to "Mechs", mechs_path %></u></li>
+          </li><u><%= link_to "gears", gears_path %></u></li>
           <br>
           </li><%= link_to "Characters", characters_path %></li>
           <br>
@@ -21,7 +21,7 @@
   </div>
 
   <div class="middle-content-section">
-    <h1>Metal Gear Mechs</h1>
+    <h1>Metal Gear gears</h1>
 
     <ul>
       <% @gears.each do |gear| %>
@@ -31,7 +31,7 @@
 
     <hr>
 
-    <%= link_to "New Mech", new_gear_path %>
+    <%= link_to "New gear", new_gear_path %>
   </div>
 
   <div class="bottom-content-section" data-magellan data-threshold="0">
