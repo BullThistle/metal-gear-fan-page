@@ -1,9 +1,27 @@
 <% content_for(:background, "mechs") %>
-<h1><%= @gear.name %></h1>
+<div class="center-block">
+  <div class="breadcrumbs">
+    <nav aria-label="You are here:" role="navigation">
+      <ul class="breadcrumbs">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li class="disabled">Gene Splicing</li>
+        <li>
+          <span class="show-for-sr">Current: </span> Cloning
+        </li>
+      </ul>
+    </nav>
+  </div><div class="middle-content-section">
+    <div class="middle-content-text">
+      <% content_for(:background, "mechs") %>
+      <h1><%= @gear.name %></h1>
 
 
-<p><%= link_to "Delete gear", gear_path(@gear),
-                        :data => {:confirm => "Are you sure?",
-                                       :method => "delete"} %></p>
+      <p><%= link_to "Delete gear", gear_path(@gear),
+                              :data => {:confirm => "Are you sure?",
+                                             :method => "delete"} %></p>
 
-<p><%= link_to "Return to gears", gears_path %></p>
+      <p><%= link_to "Return to gears", gears_path %></p>
+    </div>
+  </div>
+</div>

@@ -1,14 +1,26 @@
 <% content_for(:background, "games") %>
-<div class="middle-content-section">
-  <h1>Games</h1>
-
-  <ul>
-    <% @games.each do |game| %>
-      <li><%= link_to game.name, game_path(game) %></li>
-    <% end %>
-  </ul>
-
-  <hr>
-
-  <%= link_to "New Game", new_game_path %>
+<div class="center-block">
+  <div class="breadcrumbs">
+    <nav aria-label="You are here:" role="navigation">
+      <ul class="breadcrumbs">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li class="disabled">Gene Splicing</li>
+        <li>
+          <span class="show-for-sr">Current: </span> Cloning
+        </li>
+      </ul>
+    </nav>
+  </div><div class="middle-content-section">
+    <div class="middle-content-text">
+      <h1>Games</h1>
+      <ul>
+        <% @games.each do |game| %>
+          <li><%= link_to game.name, game_path(game) %></li>
+        <% end %>
+      </ul>
+      <hr>
+      <%= link_to "New Game", new_game_path %>
+    </div>
+  </div>
 </div>

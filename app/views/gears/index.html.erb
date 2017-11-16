@@ -1,11 +1,28 @@
 <% content_for(:background, "mechs") %>
-<h1>Metal Gear Mechs</h1>
-<ul>
-  <% @gears.each do |gear| %>
-    <li><%= link_to gear.name, gear_path(gear) %></li>
-  <% end %>
-</ul>
+<div class="center-block">
+  <div class="breadcrumbs">
+    <nav aria-label="You are here:" role="navigation">
+      <ul class="breadcrumbs">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li class="disabled">Gene Splicing</li>
+        <li>
+          <span class="show-for-sr">Current: </span> Cloning
+        </li>
+      </ul>
+    </nav>
+  </div><div class="middle-content-section">
+    <div class="middle-content-text">
+      <h1>Metal Gear Mechs</h1>
+      <ul>
+        <% @gears.each do |gear| %>
+          <li><%= link_to gear.name, gear_path(gear) %></li>
+        <% end %>
+      </ul>
 
-<hr>
+      <hr>
 
-<%= link_to "New Mech", new_gear_path %>
+      <%= link_to "New Mech", new_gear_path %>
+    </div>
+  </div>
+</div>
