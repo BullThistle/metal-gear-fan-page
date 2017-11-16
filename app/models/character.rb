@@ -1,4 +1,4 @@
 class Character < ActiveRecord::Base
   belongs_to :games
-  validates :name, :presence => true
+  validates :char_name, :presence => true
 end
