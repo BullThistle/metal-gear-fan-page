@@ -1212,6 +1212,10 @@ Game.create(name: name14, release: release14, description: description14, gamepl
 Game.create(name: name15, release: release15, description: description15, gameplay: gameplay15, story: story15, development: development15)
 Game.create(name: name16, release: release16, description: description16, gameplay: gameplay16, story: story16, development: development16)
 
+
+
+
+
 Character.create(char_name: char_name1, first_game: first_game1, bio: bio1, char_pic: char_pic1)
 Character.create(char_name: char_name2, first_game: first_game2, bio: bio2, char_pic: char_pic2)
 Character.create(char_name: char_name3, first_game: first_game3, bio: bio3, char_pic: char_pic3)
