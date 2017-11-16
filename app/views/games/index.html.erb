@@ -1,40 +1,14 @@
-<div class="games">
+<% content_for(:background, "games") %>
+<div class="middle-content-section">
+  <h1>Games</h1>
 
-  <div class="top-content-section">
-    <div class="top-bar">
-      <div class="top-bar-left">
-        <ul class="menu">
-          <li class="menu-text"><img src="https://vignette.wikia.nocookie.net/metalgear/images/a/af/FOXHOUNDPeacewalker.png/revision/latest?cb=20140208024901" alt="logo"></li>
-          <li><%= link_to "Home", root_path %></li>
-          </li><%= link_to "Platforms", platforms_path %></li>
-          <br>
-        </li><u><%= link_to "Games", games_path %></u></li>
-          <br>
-          </li><%= link_to "Mechs", mechs_path %></li>
-          <br>
-          </li><%= link_to "Characters", characters_path %></li>
-          <br>
-          </li><%= link_to "About", about_path %></li>
-        </ul>
-      </div>
-    </div>
-  </div>
+  <ul>
+    <% @games.each do |game| %>
+      <li><%= link_to game.name, game_path(game) %></li>
+    <% end %>
+  </ul>
 
-  <div class="middle-content-section">
-    <h1>Games</h1>
+  <hr>
 
-    <ul>
-      <% @games.each do |game| %>
-        <li><%= link_to game.name, game_path(game) %></li>
-      <% end %>
-    </ul>
-
-    <hr>
-
-    <%= link_to "New Game", new_game_path %>
-  </div>
-
-  <div class="bottom-content-section" data-magellan data-threshold="0">
-  </div>
-
+  <%= link_to "New Game", new_game_path %>
 </div>

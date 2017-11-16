@@ -13,7 +13,34 @@
   </head>
 
   <body>
-    <%= yield %>
-    <!-- <%= javascript_include_tag "application" %> -->
+      <div class="<%= yield(:background) %>">
+        <div class="left-content-section">
+          <ul class="menu">
+            <li class="menu-text"><img src="https://vignette.wikia.nocookie.net/metalgear/images/a/af/FOXHOUNDPeacewalker.png/revision/latest?cb=20140208024901" alt="logo"></li>
+            <li><%= link_to "Home", root_path %></li>
+            </li><%= link_to "Platforms", platforms_path %></li>
+            <br>
+            </li><%= link_to "Games", games_path %></li>
+            <br>
+            </li><u><%= link_to "Mechs", mechs_path %></u></li>
+            <br>
+            </li><%= link_to "Characters", characters_path %></li>
+            <br>
+            </li><%= link_to "About", about_path %></li>
+          </ul>
+
+        </div>
+
+        <div class="mid-content-section">
+
+          <%= yield %>
+        </div>
+
+        <div class="right-content-section">
+          
+        </div>
+        <!-- <div class="bottom-content-section" data-magellan data-threshold="0">
+        </div> -->
+      </div>
   </body>
 </html>

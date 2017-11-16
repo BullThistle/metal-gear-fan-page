@@ -1,40 +1,11 @@
-<div class="mechs">
+<% content_for(:background, "mechs") %>
+<h1>Metal Gear Mechs</h1>
+<ul>
+  <% @gears.each do |gear| %>
+    <li><%= link_to gear.name, gear_path(gear) %></li>
+  <% end %>
+</ul>
 
-  <div class="top-content-section">
-    <div class="top-bar">
-      <div class="top-bar-left">
-        <ul class="menu">
-          <li class="menu-text"><img src="https://vignette.wikia.nocookie.net/metalgear/images/a/af/FOXHOUNDPeacewalker.png/revision/latest?cb=20140208024901" alt="logo"></li>
-          <li><%= link_to "Home", root_path %></li>
-          </li><%= link_to "Platforms", platforms_path %></li>
-          <br>
-          </li><%= link_to "Games", games_path %></li>
-          <br>
-          </li><u><%= link_to "Mechs", mechs_path %></u></li>
-          <br>
-          </li><%= link_to "Characters", characters_path %></li>
-          <br>
-          </li><%= link_to "About", about_path %></li>
-        </ul>
-      </div>
-    </div>
-  </div>
+<hr>
 
-  <div class="middle-content-section">
-    <h1>Metal Gear Mechs</h1>
-
-    <ul>
-      <% @gears.each do |gear| %>
-        <li><%= link_to gear.name, gear_path(gear) %></li>
-      <% end %>
-    </ul>
-
-    <hr>
-
-    <%= link_to "New Mech", new_gear_path %>
-  </div>
-
-  <div class="bottom-content-section" data-magellan data-threshold="0">
-  </div>
-
-</div>
+<%= link_to "New Mech", new_gear_path %>

@@ -37,53 +37,89 @@ $hero-full-screen-text-color: white;
   background: $about;
 }
 
+
+.mid-content-section{
+  flex: 1;
+}
+
 .background {
-  height: 100vh;
   display: flex;
-  flex-direction: column;
+  // flex-direction: row;
+  height: 100vh;
   align-items: center;
   justify-content: space-between;
   background-size: $hero-full-screen-bg-size;
-
   position: relative;
   overflow: hidden;
   width: 100%;
 
 }
 
-  .middle-content-section {
-    text-align: center;
-    color: $hero-full-screen-text-color;
-    background-color: rgba(255,255,255,0.8);
-    width: 50vh;
-    height: 50vh;
-    padding: 15vh;
-    border-radius: 25px;
-  }
+.right-content-section{
+  flex: 1;
+}
 
-  .home-middle-content-section {
-    text-align: center;
-    color: $hero-full-screen-text-color;
-  }
+.middle-content-section {
+  text-align: center;
+  color: black;
+  background-color: rgba(255,255,255,0.9);
+  width: 80vh;
+  height: 40em;
+  padding-top: 0px;
+  overflow: hidden;
+  overflow: scroll;
+  overflow-x: auto;
+  overflow-y: auto;
+}
 
-  .top-content-section {
-    width: 100%;
-  }
+.middle-content-text {
+  padding-left: 10vh;
+  padding-right: 10vh;
+  padding-bottom: 10vh;
+  padding-top: 5vh;
+}
 
-  .bottom-content-section {
-    padding: 1rem;
+.breadcrumbs {
+z-index: 1000;
+width: 100%;
+border: none;
+}
 
-    svg {
-      height: rem-calc(60);
-      width: rem-calc(60);
-      fill: $hero-full-screen-text-color;
-    }
-  }
+.breadcrumbs-block{
+  background-color: white;
+}
 
-// optional demo styles
-.top-bar {
-  background: transparent;
+.top-bar{
+  height: 0px;
+}
 
+// .center-block {
+//   font-size: 0px;
+// }
+
+.home-middle-content-section {
+  // text-align: center;
+}
+
+// .top-content-section {
+//   width: 100%;
+// }
+
+// .bottom-content-section {
+//   padding: 1rem;
+//
+//   svg {
+//     height: rem-calc(60);
+//     width: rem-calc(60);
+//     fill: $hero-full-screen-text-color;
+//   }
+// }
+
+
+.left-content-section {
+  flex: 1;
+  vertical-align: text-top;
+  height: 100%;
   .menu {
     background: transparent;
   }
