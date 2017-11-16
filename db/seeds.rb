@@ -462,3 +462,9 @@ Game.create(name: name11, release: release11, description: description11, gamepl
 Game.create(name: name12, release: release12, description: description12, gameplay: gameplay12, story: story12, development: development12)
 
 Game.create(name: name13, release: release13, description: description13, gameplay: gameplay13, story: story13, development: development13)
+
+Game.create(name: name14, release: release14, description: description14, gameplay: gameplay14, story: story14, development: development14)
+
+Game.create(name: name15, release: release15, description: description15, gameplay: gameplay15, story: story15, development: development15)
+
+Game.create(name: name16, release: release16, description: description16, gameplay: gameplay16, story: story16, development: development16)
