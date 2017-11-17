@@ -1195,7 +1195,7 @@ char_pic92 = ""
 
 
 
-Game.create(name: name1, release: release1, description: description1, gameplay: gameplay1, story: story1, development: development1)
+game1 = Game.create(name: name1, release: release1, description: description1, gameplay: gameplay1, story: story1, development: development1)
 Game.create(name: name2, release: release2, description: description2, gameplay: gameplay2, story: story2, development: development2)
 Game.create(name: name3, release: release3, description: description3, gameplay: gameplay3, story: story3, development: development3)
 Game.create(name: name4, release: release4, description: description4, gameplay: gameplay4, story: story4, development: development4)
@@ -1213,10 +1213,7 @@ Game.create(name: name15, release: release15, description: description15, gamepl
 Game.create(name: name16, release: release16, description: description16, gameplay: gameplay16, story: story16, development: development16)
 
 
-
-
-
-Character.create(char_name: char_name1, first_game: first_game1, bio: bio1, char_pic: char_pic1)
+character1 = Character.create(char_name: char_name1, first_game: first_game1, bio: bio1, char_pic: char_pic1)
 Character.create(char_name: char_name2, first_game: first_game2, bio: bio2, char_pic: char_pic2)
 Character.create(char_name: char_name3, first_game: first_game3, bio: bio3, char_pic: char_pic3)
 Character.create(char_name: char_name4, first_game: first_game4, bio: bio4, char_pic: char_pic4)
@@ -1308,3 +1305,5 @@ Character.create(char_name: char_name89, first_game: first_game89, bio: bio89, c
 Character.create(char_name: char_name90, first_game: first_game90, bio: bio90, char_pic: char_pic90)
 Character.create(char_name: char_name91, first_game: first_game91, bio: bio91, char_pic: char_pic91)
 Character.create(char_name: char_name92, first_game: first_game92, bio: bio92, char_pic: char_pic92)
+
+game1.characters << character1
