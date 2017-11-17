@@ -1195,116 +1195,250 @@ char_pic92 = ""
 
 
 
-Game.create(name: name1, release: release1, description: description1, gameplay: gameplay1, story: story1, development: development1)
-Game.create(name: name2, release: release2, description: description2, gameplay: gameplay2, story: story2, development: development2)
-Game.create(name: name3, release: release3, description: description3, gameplay: gameplay3, story: story3, development: development3)
-Game.create(name: name4, release: release4, description: description4, gameplay: gameplay4, story: story4, development: development4)
-Game.create(name: name5, release: release5, description: description5, gameplay: gameplay5, story: story5, development: development5)
-Game.create(name: name6, release: release6, description: description6, gameplay: gameplay6, story: story6, development: development6)
-Game.create(name: name7, release: release7, description: description7, gameplay: gameplay7, story: story7, development: development7)
-Game.create(name: name8, release: release8, description: description8, gameplay: gameplay8, story: story8, development: development8)
-Game.create(name: name9, release: release9, description: description9, gameplay: gameplay9, story: story9, development: development9)
-Game.create(name: name10, release: release10, description: description10, gameplay: gameplay10, story: story10, development: development10)
-Game.create(name: name11, release: release11, description: description11, gameplay: gameplay11, story: story11, development: development11)
-Game.create(name: name12, release: release12, description: description12, gameplay: gameplay12, story: story12, development: development12)
-Game.create(name: name13, release: release13, description: description13, gameplay: gameplay13, story: story13, development: development13)
-Game.create(name: name14, release: release14, description: description14, gameplay: gameplay14, story: story14, development: development14)
-Game.create(name: name15, release: release15, description: description15, gameplay: gameplay15, story: story15, development: development15)
-Game.create(name: name16, release: release16, description: description16, gameplay: gameplay16, story: story16, development: development16)
+game1 = Game.create(name: name1, release: release1, description: description1, gameplay: gameplay1, story: story1, development: development1)
+game2 = Game.create(name: name2, release: release2, description: description2, gameplay: gameplay2, story: story2, development: development2)
+game3 = Game.create(name: name3, release: release3, description: description3, gameplay: gameplay3, story: story3, development: development3)
+game4 = Game.create(name: name4, release: release4, description: description4, gameplay: gameplay4, story: story4, development: development4)
+game5 = Game.create(name: name5, release: release5, description: description5, gameplay: gameplay5, story: story5, development: development5)
+game6 = Game.create(name: name6, release: release6, description: description6, gameplay: gameplay6, story: story6, development: development6)
+game7 = Game.create(name: name7, release: release7, description: description7, gameplay: gameplay7, story: story7, development: development7)
+game8 = Game.create(name: name8, release: release8, description: description8, gameplay: gameplay8, story: story8, development: development8)
+game9 = Game.create(name: name9, release: release9, description: description9, gameplay: gameplay9, story: story9, development: development9)
+game10 = Game.create(name: name10, release: release10, description: description10, gameplay: gameplay10, story: story10, development: development10)
+game11 = Game.create(name: name11, release: release11, description: description11, gameplay: gameplay11, story: story11, development: development11)
+game12 = Game.create(name: name12, release: release12, description: description12, gameplay: gameplay12, story: story12, development: development12)
+game13 = Game.create(name: name13, release: release13, description: description13, gameplay: gameplay13, story: story13, development: development13)
+game14 = Game.create(name: name14, release: release14, description: description14, gameplay: gameplay14, story: story14, development: development14)
+game15 = Game.create(name: name15, release: release15, description: description15, gameplay: gameplay15, story: story15, development: development15)
+game16 = Game.create(name: name16, release: release16, description: description16, gameplay: gameplay16, story: story16, development: development16)
 
 
 
 
 
-Character.create(char_name: char_name1, first_game: first_game1, bio: bio1, char_pic: char_pic1)
-Character.create(char_name: char_name2, first_game: first_game2, bio: bio2, char_pic: char_pic2)
-Character.create(char_name: char_name3, first_game: first_game3, bio: bio3, char_pic: char_pic3)
-Character.create(char_name: char_name4, first_game: first_game4, bio: bio4, char_pic: char_pic4)
-Character.create(char_name: char_name5, first_game: first_game5, bio: bio5, char_pic: char_pic5)
-Character.create(char_name: char_name6, first_game: first_game6, bio: bio6, char_pic: char_pic6)
-Character.create(char_name: char_name7, first_game: first_game7, bio: bio7, char_pic: char_pic7)
-Character.create(char_name: char_name8, first_game: first_game8, bio: bio8, char_pic: char_pic8)
-Character.create(char_name: char_name9, first_game: first_game9, bio: bio9, char_pic: char_pic9)
-Character.create(char_name: char_name10, first_game: first_game10, bio: bio10, char_pic: char_pic10)
-Character.create(char_name: char_name11, first_game: first_game11, bio: bio11, char_pic: char_pic11)
-Character.create(char_name: char_name12, first_game: first_game12, bio: bio12, char_pic: char_pic12)
-Character.create(char_name: char_name13, first_game: first_game13, bio: bio13, char_pic: char_pic13)
-Character.create(char_name: char_name14, first_game: first_game14, bio: bio14, char_pic: char_pic14)
-Character.create(char_name: char_name15, first_game: first_game15, bio: bio15, char_pic: char_pic15)
-Character.create(char_name: char_name16, first_game: first_game16, bio: bio16, char_pic: char_pic16)
-Character.create(char_name: char_name17, first_game: first_game17, bio: bio17, char_pic: char_pic17)
-Character.create(char_name: char_name18, first_game: first_game18, bio: bio18, char_pic: char_pic18)
-Character.create(char_name: char_name19, first_game: first_game19, bio: bio19, char_pic: char_pic19)
-Character.create(char_name: char_name20, first_game: first_game20, bio: bio20, char_pic: char_pic20)
-Character.create(char_name: char_name21, first_game: first_game21, bio: bio21, char_pic: char_pic21)
-Character.create(char_name: char_name22, first_game: first_game22, bio: bio22, char_pic: char_pic22)
-Character.create(char_name: char_name23, first_game: first_game23, bio: bio23, char_pic: char_pic23)
-Character.create(char_name: char_name24, first_game: first_game24, bio: bio24, char_pic: char_pic24)
-Character.create(char_name: char_name25, first_game: first_game25, bio: bio25, char_pic: char_pic25)
-Character.create(char_name: char_name26, first_game: first_game26, bio: bio26, char_pic: char_pic26)
-Character.create(char_name: char_name27, first_game: first_game27, bio: bio27, char_pic: char_pic27)
-Character.create(char_name: char_name28, first_game: first_game28, bio: bio28, char_pic: char_pic28)
-Character.create(char_name: char_name29, first_game: first_game29, bio: bio29, char_pic: char_pic29)
-Character.create(char_name: char_name30, first_game: first_game30, bio: bio30, char_pic: char_pic30)
-Character.create(char_name: char_name31, first_game: first_game31, bio: bio31, char_pic: char_pic31)
-Character.create(char_name: char_name32, first_game: first_game32, bio: bio32, char_pic: char_pic32)
-Character.create(char_name: char_name33, first_game: first_game33, bio: bio33, char_pic: char_pic33)
-Character.create(char_name: char_name34, first_game: first_game34, bio: bio34, char_pic: char_pic34)
-Character.create(char_name: char_name35, first_game: first_game35, bio: bio35, char_pic: char_pic35)
-Character.create(char_name: char_name36, first_game: first_game36, bio: bio36, char_pic: char_pic36)
-Character.create(char_name: char_name37, first_game: first_game37, bio: bio37, char_pic: char_pic37)
-Character.create(char_name: char_name38, first_game: first_game38, bio: bio38, char_pic: char_pic38)
-Character.create(char_name: char_name39, first_game: first_game39, bio: bio39, char_pic: char_pic39)
-Character.create(char_name: char_name40, first_game: first_game40, bio: bio40, char_pic: char_pic40)
-Character.create(char_name: char_name41, first_game: first_game41, bio: bio41, char_pic: char_pic41)
-Character.create(char_name: char_name42, first_game: first_game42, bio: bio42, char_pic: char_pic42)
-Character.create(char_name: char_name43, first_game: first_game43, bio: bio43, char_pic: char_pic43)
-Character.create(char_name: char_name44, first_game: first_game44, bio: bio44, char_pic: char_pic44)
-Character.create(char_name: char_name45, first_game: first_game45, bio: bio45, char_pic: char_pic45)
-Character.create(char_name: char_name46, first_game: first_game46, bio: bio46, char_pic: char_pic46)
-Character.create(char_name: char_name47, first_game: first_game47, bio: bio47, char_pic: char_pic47)
-Character.create(char_name: char_name48, first_game: first_game48, bio: bio48, char_pic: char_pic48)
-Character.create(char_name: char_name49, first_game: first_game49, bio: bio49, char_pic: char_pic49)
-Character.create(char_name: char_name50, first_game: first_game50, bio: bio50, char_pic: char_pic50)
-Character.create(char_name: char_name51, first_game: first_game51, bio: bio51, char_pic: char_pic51)
-Character.create(char_name: char_name52, first_game: first_game52, bio: bio52, char_pic: char_pic52)
-Character.create(char_name: char_name53, first_game: first_game53, bio: bio53, char_pic: char_pic53)
-Character.create(char_name: char_name54, first_game: first_game54, bio: bio54, char_pic: char_pic54)
-Character.create(char_name: char_name55, first_game: first_game55, bio: bio55, char_pic: char_pic55)
-Character.create(char_name: char_name56, first_game: first_game56, bio: bio56, char_pic: char_pic56)
-Character.create(char_name: char_name57, first_game: first_game57, bio: bio57, char_pic: char_pic57)
-Character.create(char_name: char_name58, first_game: first_game58, bio: bio58, char_pic: char_pic58)
-Character.create(char_name: char_name59, first_game: first_game59, bio: bio59, char_pic: char_pic59)
-Character.create(char_name: char_name60, first_game: first_game60, bio: bio60, char_pic: char_pic60)
-Character.create(char_name: char_name61, first_game: first_game61, bio: bio61, char_pic: char_pic61)
-Character.create(char_name: char_name62, first_game: first_game62, bio: bio62, char_pic: char_pic62)
-Character.create(char_name: char_name63, first_game: first_game63, bio: bio63, char_pic: char_pic63)
-Character.create(char_name: char_name64, first_game: first_game64, bio: bio64, char_pic: char_pic64)
-Character.create(char_name: char_name65, first_game: first_game65, bio: bio65, char_pic: char_pic65)
-Character.create(char_name: char_name66, first_game: first_game66, bio: bio66, char_pic: char_pic66)
-Character.create(char_name: char_name67, first_game: first_game67, bio: bio67, char_pic: char_pic67)
-Character.create(char_name: char_name68, first_game: first_game68, bio: bio68, char_pic: char_pic68)
-Character.create(char_name: char_name69, first_game: first_game69, bio: bio69, char_pic: char_pic69)
-Character.create(char_name: char_name70, first_game: first_game70, bio: bio70, char_pic: char_pic70)
-Character.create(char_name: char_name71, first_game: first_game71, bio: bio71, char_pic: char_pic71)
-Character.create(char_name: char_name72, first_game: first_game72, bio: bio72, char_pic: char_pic72)
-Character.create(char_name: char_name73, first_game: first_game73, bio: bio73, char_pic: char_pic73)
-Character.create(char_name: char_name74, first_game: first_game74, bio: bio74, char_pic: char_pic74)
-Character.create(char_name: char_name75, first_game: first_game75, bio: bio75, char_pic: char_pic75)
-Character.create(char_name: char_name76, first_game: first_game76, bio: bio76, char_pic: char_pic76)
-Character.create(char_name: char_name77, first_game: first_game77, bio: bio77, char_pic: char_pic77)
-Character.create(char_name: char_name78, first_game: first_game78, bio: bio78, char_pic: char_pic78)
-Character.create(char_name: char_name79, first_game: first_game79, bio: bio79, char_pic: char_pic79)
-Character.create(char_name: char_name80, first_game: first_game80, bio: bio80, char_pic: char_pic80)
-Character.create(char_name: char_name81, first_game: first_game81, bio: bio81, char_pic: char_pic81)
-Character.create(char_name: char_name82, first_game: first_game82, bio: bio82, char_pic: char_pic82)
-Character.create(char_name: char_name83, first_game: first_game83, bio: bio83, char_pic: char_pic83)
-Character.create(char_name: char_name84, first_game: first_game84, bio: bio84, char_pic: char_pic84)
-Character.create(char_name: char_name85, first_game: first_game85, bio: bio85, char_pic: char_pic85)
-Character.create(char_name: char_name86, first_game: first_game86, bio: bio86, char_pic: char_pic86)
-Character.create(char_name: char_name87, first_game: first_game87, bio: bio87, char_pic: char_pic87)
-Character.create(char_name: char_name88, first_game: first_game88, bio: bio88, char_pic: char_pic88)
-Character.create(char_name: char_name89, first_game: first_game89, bio: bio89, char_pic: char_pic89)
-Character.create(char_name: char_name90, first_game: first_game90, bio: bio90, char_pic: char_pic90)
-Character.create(char_name: char_name91, first_game: first_game91, bio: bio91, char_pic: char_pic91)
-Character.create(char_name: char_name92, first_game: first_game92, bio: bio92, char_pic: char_pic92)
+character1 = Character.create(char_name: char_name1, first_game: first_game1, bio: bio1, char_pic: char_pic1)
+character2 = Character.create(char_name: char_name2, first_game: first_game2, bio: bio2, char_pic: char_pic2)
+character3 = Character.create(char_name: char_name3, first_game: first_game3, bio: bio3, char_pic: char_pic3)
+character4 = Character.create(char_name: char_name4, first_game: first_game4, bio: bio4, char_pic: char_pic4)
+character5 = Character.create(char_name: char_name5, first_game: first_game5, bio: bio5, char_pic: char_pic5)
+character6 = Character.create(char_name: char_name6, first_game: first_game6, bio: bio6, char_pic: char_pic6)
+character7 = Character.create(char_name: char_name7, first_game: first_game7, bio: bio7, char_pic: char_pic7)
+character8 = Character.create(char_name: char_name8, first_game: first_game8, bio: bio8, char_pic: char_pic8)
+character9 = Character.create(char_name: char_name9, first_game: first_game9, bio: bio9, char_pic: char_pic9)
+character10 = Character.create(char_name: char_name10, first_game: first_game10, bio: bio10, char_pic: char_pic10)
+character11 = Character.create(char_name: char_name11, first_game: first_game11, bio: bio11, char_pic: char_pic11)
+character12 = Character.create(char_name: char_name12, first_game: first_game12, bio: bio12, char_pic: char_pic12)
+character13 = Character.create(char_name: char_name13, first_game: first_game13, bio: bio13, char_pic: char_pic13)
+character14 = Character.create(char_name: char_name14, first_game: first_game14, bio: bio14, char_pic: char_pic14)
+character15 = Character.create(char_name: char_name15, first_game: first_game15, bio: bio15, char_pic: char_pic15)
+character16 = Character.create(char_name: char_name16, first_game: first_game16, bio: bio16, char_pic: char_pic16)
+character17 = Character.create(char_name: char_name17, first_game: first_game17, bio: bio17, char_pic: char_pic17)
+character18 = Character.create(char_name: char_name18, first_game: first_game18, bio: bio18, char_pic: char_pic18)
+character19 = Character.create(char_name: char_name19, first_game: first_game19, bio: bio19, char_pic: char_pic19)
+character20 = Character.create(char_name: char_name20, first_game: first_game20, bio: bio20, char_pic: char_pic20)
+character21 = Character.create(char_name: char_name21, first_game: first_game21, bio: bio21, char_pic: char_pic21)
+character22 = Character.create(char_name: char_name22, first_game: first_game22, bio: bio22, char_pic: char_pic22)
+character23 = Character.create(char_name: char_name23, first_game: first_game23, bio: bio23, char_pic: char_pic23)
+character24 = Character.create(char_name: char_name24, first_game: first_game24, bio: bio24, char_pic: char_pic24)
+character25 = Character.create(char_name: char_name25, first_game: first_game25, bio: bio25, char_pic: char_pic25)
+character26 = Character.create(char_name: char_name26, first_game: first_game26, bio: bio26, char_pic: char_pic26)
+character27 = Character.create(char_name: char_name27, first_game: first_game27, bio: bio27, char_pic: char_pic27)
+character28 = Character.create(char_name: char_name28, first_game: first_game28, bio: bio28, char_pic: char_pic28)
+character29 = Character.create(char_name: char_name29, first_game: first_game29, bio: bio29, char_pic: char_pic29)
+character30 = Character.create(char_name: char_name30, first_game: first_game30, bio: bio30, char_pic: char_pic30)
+character31 = Character.create(char_name: char_name31, first_game: first_game31, bio: bio31, char_pic: char_pic31)
+character32 = Character.create(char_name: char_name32, first_game: first_game32, bio: bio32, char_pic: char_pic32)
+character33 = Character.create(char_name: char_name33, first_game: first_game33, bio: bio33, char_pic: char_pic33)
+character34 = Character.create(char_name: char_name34, first_game: first_game34, bio: bio34, char_pic: char_pic34)
+character35 = Character.create(char_name: char_name35, first_game: first_game35, bio: bio35, char_pic: char_pic35)
+character36 = Character.create(char_name: char_name36, first_game: first_game36, bio: bio36, char_pic: char_pic36)
+character37 = Character.create(char_name: char_name37, first_game: first_game37, bio: bio37, char_pic: char_pic37)
+character38 = Character.create(char_name: char_name38, first_game: first_game38, bio: bio38, char_pic: char_pic38)
+character39 = Character.create(char_name: char_name39, first_game: first_game39, bio: bio39, char_pic: char_pic39)
+character40 = Character.create(char_name: char_name40, first_game: first_game40, bio: bio40, char_pic: char_pic40)
+character41 = Character.create(char_name: char_name41, first_game: first_game41, bio: bio41, char_pic: char_pic41)
+character42 = Character.create(char_name: char_name42, first_game: first_game42, bio: bio42, char_pic: char_pic42)
+character43 = Character.create(char_name: char_name43, first_game: first_game43, bio: bio43, char_pic: char_pic43)
+character44 = Character.create(char_name: char_name44, first_game: first_game44, bio: bio44, char_pic: char_pic44)
+character45 = Character.create(char_name: char_name45, first_game: first_game45, bio: bio45, char_pic: char_pic45)
+character46 = Character.create(char_name: char_name46, first_game: first_game46, bio: bio46, char_pic: char_pic46)
+character47 = Character.create(char_name: char_name47, first_game: first_game47, bio: bio47, char_pic: char_pic47)
+character48 = Character.create(char_name: char_name48, first_game: first_game48, bio: bio48, char_pic: char_pic48)
+character49 = Character.create(char_name: char_name49, first_game: first_game49, bio: bio49, char_pic: char_pic49)
+character50 = Character.create(char_name: char_name50, first_game: first_game50, bio: bio50, char_pic: char_pic50)
+character51 = Character.create(char_name: char_name51, first_game: first_game51, bio: bio51, char_pic: char_pic51)
+character52 = Character.create(char_name: char_name52, first_game: first_game52, bio: bio52, char_pic: char_pic52)
+character53 = Character.create(char_name: char_name53, first_game: first_game53, bio: bio53, char_pic: char_pic53)
+character54 = Character.create(char_name: char_name54, first_game: first_game54, bio: bio54, char_pic: char_pic54)
+character55 = Character.create(char_name: char_name55, first_game: first_game55, bio: bio55, char_pic: char_pic55)
+character56 = Character.create(char_name: char_name56, first_game: first_game56, bio: bio56, char_pic: char_pic56)
+character57 = Character.create(char_name: char_name57, first_game: first_game57, bio: bio57, char_pic: char_pic57)
+character58 = Character.create(char_name: char_name58, first_game: first_game58, bio: bio58, char_pic: char_pic58)
+character59 = Character.create(char_name: char_name59, first_game: first_game59, bio: bio59, char_pic: char_pic59)
+character60 = Character.create(char_name: char_name60, first_game: first_game60, bio: bio60, char_pic: char_pic60)
+character61 = Character.create(char_name: char_name61, first_game: first_game61, bio: bio61, char_pic: char_pic61)
+character62 = Character.create(char_name: char_name62, first_game: first_game62, bio: bio62, char_pic: char_pic62)
+character63 = Character.create(char_name: char_name63, first_game: first_game63, bio: bio63, char_pic: char_pic63)
+character64 = Character.create(char_name: char_name64, first_game: first_game64, bio: bio64, char_pic: char_pic64)
+character65 = Character.create(char_name: char_name65, first_game: first_game65, bio: bio65, char_pic: char_pic65)
+character66 = Character.create(char_name: char_name66, first_game: first_game66, bio: bio66, char_pic: char_pic66)
+character67 = Character.create(char_name: char_name67, first_game: first_game67, bio: bio67, char_pic: char_pic67)
+character68 = Character.create(char_name: char_name68, first_game: first_game68, bio: bio68, char_pic: char_pic68)
+character69 = Character.create(char_name: char_name69, first_game: first_game69, bio: bio69, char_pic: char_pic69)
+character70 = Character.create(char_name: char_name70, first_game: first_game70, bio: bio70, char_pic: char_pic70)
+character71 = Character.create(char_name: char_name71, first_game: first_game71, bio: bio71, char_pic: char_pic71)
+character72 = Character.create(char_name: char_name72, first_game: first_game72, bio: bio72, char_pic: char_pic72)
+character73 = Character.create(char_name: char_name73, first_game: first_game73, bio: bio73, char_pic: char_pic73)
+character74 = Character.create(char_name: char_name74, first_game: first_game74, bio: bio74, char_pic: char_pic74)
+character75 = Character.create(char_name: char_name75, first_game: first_game75, bio: bio75, char_pic: char_pic75)
+character76 = Character.create(char_name: char_name76, first_game: first_game76, bio: bio76, char_pic: char_pic76)
+character77 = Character.create(char_name: char_name77, first_game: first_game77, bio: bio77, char_pic: char_pic77)
+character78 = Character.create(char_name: char_name78, first_game: first_game78, bio: bio78, char_pic: char_pic78)
+character79 = Character.create(char_name: char_name79, first_game: first_game79, bio: bio79, char_pic: char_pic79)
+character80 = Character.create(char_name: char_name80, first_game: first_game80, bio: bio80, char_pic: char_pic80)
+character81 = Character.create(char_name: char_name81, first_game: first_game81, bio: bio81, char_pic: char_pic81)
+character82 = Character.create(char_name: char_name82, first_game: first_game82, bio: bio82, char_pic: char_pic82)
+character83 = Character.create(char_name: char_name83, first_game: first_game83, bio: bio83, char_pic: char_pic83)
+character84 = Character.create(char_name: char_name84, first_game: first_game84, bio: bio84, char_pic: char_pic84)
+character85 = Character.create(char_name: char_name85, first_game: first_game85, bio: bio85, char_pic: char_pic85)
+character86 = Character.create(char_name: char_name86, first_game: first_game86, bio: bio86, char_pic: char_pic86)
+character87 = Character.create(char_name: char_name87, first_game: first_game87, bio: bio87, char_pic: char_pic87)
+character88 = Character.create(char_name: char_name88, first_game: first_game88, bio: bio88, char_pic: char_pic88)
+character89 = Character.create(char_name: char_name89, first_game: first_game89, bio: bio89, char_pic: char_pic89)
+character90 = Character.create(char_name: char_name90, first_game: first_game90, bio: bio90, char_pic: char_pic90)
+character91 = Character.create(char_name: char_name91, first_game: first_game91, bio: bio91, char_pic: char_pic91)
+character92 = Character.create(char_name: char_name92, first_game: first_game92, bio: bio92, char_pic: char_pic92)
+
+game1.characters << character1
+game1.characters << character2
+game1.characters << character3
+game1.characters << character5
+game1.characters << character6
+
+game3.characters << character1
+game3.characters << character2
+game3.characters << character3
+game3.characters << character7
+game3.characters << character8
+game3.characters << character9
+game3.characters << character10
+game3.characters << character11
+game3.characters << character12
+game3.characters << character13
+
+game4.characters << character1
+game4.characters << character3
+game4.characters << character7
+game4.characters << character4
+game4.characters << character14
+game4.characters << character15
+game4.characters << character16
+game4.characters << character17
+game4.characters << character18
+game4.characters << character19
+game4.characters << character20
+game4.characters << character21
+game4.characters << character22
+game4.characters << character23
+game4.characters << character24
+game4.characters << character25
+
+game6.characters << character1
+game6.characters << character4
+game6.characters << character7
+game6.characters << character25
+game6.characters << character27
+game6.characters << character28
+game6.characters << character29
+game6.characters << character30
+game6.characters << character31
+game6.characters << character32
+game6.characters << character33
+game6.characters << character34
+game6.characters << character35
+game6.characters << character36
+game6.characters << character37
+game6.characters << character38
+game6.characters << character39
+
+game8.characters << character2
+game8.characters << character4
+game8.characters << character40
+game8.characters << character41
+game8.characters << character42
+game8.characters << character43
+game8.characters << character44
+game8.characters << character45
+game8.characters << character46
+game8.characters << character47
+game8.characters << character48
+game8.characters << character49
+game8.characters << character50
+game8.characters << character51
+game8.characters << character52
+game8.characters << character53
+
+game11.characters << character2
+game11.characters << character7
+game11.characters << character40
+game11.characters << character44
+game11.characters << character46
+game11.characters << character54
+game11.characters << character55
+game11.characters << character56
+game11.characters << character57
+game11.characters << character58
+game11.characters << character59
+
+game12.characters << character1
+game12.characters << character7
+game12.characters << character14
+game12.characters << character15
+game12.characters << character16
+game12.characters << character17
+game12.characters << character32
+game12.characters << character31
+game12.characters << character40
+game12.characters << character2
+game12.characters << character60
+game12.characters << character61
+game12.characters << character62
+game12.characters << character63
+game12.characters << character64
+game12.characters << character65
+game12.characters << character66
+game12.characters << character67
+game12.characters << character68
+
+game13.characters << character2
+game13.characters << character8
+game13.characters << character69
+game13.characters << character70
+game13.characters << character71
+game13.characters << character72
+game13.characters << character73
+game13.characters << character74
+game13.characters << character75
+game13.characters << character76
+
+game14.characters << character27
+game14.characters << character77
+game14.characters << character78
+game14.characters << character79
+game14.characters << character80
+game14.characters << character81
+game14.characters << character82
+game14.characters << character83
+game14.characters << character84
+game14.characters << character85
+game14.characters << character86
+game14.characters << character87
+
+game16.characters << character2
+game16.characters << character4
+game16.characters << character8
+game16.characters << character88
+game16.characters << character89
+game16.characters << character90
+game16.characters << character91
+game16.characters << character92
